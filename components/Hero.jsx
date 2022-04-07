@@ -18,7 +18,7 @@ const Hero = () => {
         justifyContent="center"
         sx={{
           '@media (max-width:48em)': {
-            bgImage: '/images/06.png',
+            bgImage: '/images/05.png',
             bgSize: 'cover',
           },
         }}
