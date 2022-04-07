@@ -18,14 +18,21 @@ const Hero = () => {
         justifyContent="center"
         sx={{
           '@media (max-width:48em)': {
-            bgImage: '/images/health3.svg',
+            bgImage: '/images/06.png',
             bgSize: 'cover',
           },
         }}
         spacing={4}
       >
         <Heading size="3xl">Be attentive to your health</Heading>
-        <Text fontSize="xl">
+        <Text
+          fontSize="xl"
+          sx={{
+            '@media (max-width:48em)': {
+              fontWeight: '500',
+            },
+          }}
+        >
           As a medical doctor, I&apos;ve know the face of adversity. I have seen
           much of death and dying, suffering and sorrow. I also remember the
           plight of patients at death beds. I just want you to work out, eat
