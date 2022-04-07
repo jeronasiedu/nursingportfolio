@@ -21,6 +21,9 @@ const Hero = () => {
             bgImage: '/images/05.png',
             bgSize: 'cover',
           },
+          '@media (max-width:30em)': {
+            bgPos: '50% center',
+          },
         }}
         spacing={4}
       >
