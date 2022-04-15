@@ -31,7 +31,10 @@ export default function Home() {
           property="og:description"
           content="You got to check this out. A well crafted portfolio for anyone in the health industry"
         />
-        <meta property="og:image" content={metaImage} />
+        <meta
+          property="og:image"
+          content="https://github.com/jeronasiedu/nursingportfolio/blob/main/assets/meta.png?raw=true"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -46,7 +49,10 @@ export default function Home() {
           property="twitter:description"
           content="You got to check this out. A well crafted portfolio for anyone in the health industry"
         />
-        <meta property="twitter:image" content={metaImage} />
+        <meta
+          property="twitter:image"
+          content="https://github.com/jeronasiedu/nursingportfolio/blob/main/assets/meta.png?raw=true"
+        />
       </Head>
       <Navbar />
       <Container maxW="container.xl">
