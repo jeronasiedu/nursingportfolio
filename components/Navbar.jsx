@@ -2,7 +2,7 @@ import { Heading, HStack, Spacer, Text, chakra, Button } from '@chakra-ui/react'
 
 const Navbar = () => {
   return (
-    <HStack w="full" px={6} py={4} mb="2" shadow="sm">
+    <HStack w="full" px={6} py={4} mb="2" shadow="sm" as="nav">
       <Heading size="lg" textTransform="uppercase">
         Take
         <chakra.span

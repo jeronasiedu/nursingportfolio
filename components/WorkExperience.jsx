@@ -18,7 +18,7 @@ const WorkExperience = () => {
               '&::before': {
                 pos: 'absolute',
                 content: "''",
-                inset: 0,
+                inset: '0.45rem',
                 bg: '#b9cfe1',
                 transform: 'rotate(10deg)',
                 zIndex: -3,
@@ -50,7 +50,7 @@ const WorkExperience = () => {
               '&::before': {
                 pos: 'absolute',
                 content: "''",
-                inset: 0,
+                inset: '0.45rem',
                 bg: '#b9cfe1',
                 transform: 'rotate(10deg)',
                 zIndex: -3,
@@ -82,7 +82,7 @@ const WorkExperience = () => {
               '&::before': {
                 pos: 'absolute',
                 content: "''",
-                inset: 0,
+                inset: '0.45rem',
                 bg: '#b9cfe1',
                 transform: 'rotate(10deg)',
                 zIndex: -3,

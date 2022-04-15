@@ -1,6 +1,6 @@
 import { Box, Button, Heading, Stack, Text, VStack } from '@chakra-ui/react'
 import Image from 'next/image'
-
+import { AnimateBg } from './index'
 const Hero = () => {
   return (
     <Stack
@@ -14,25 +14,32 @@ const Hero = () => {
         p={4}
         py={8}
         w="full"
-        bg="#F2F9FE"
         justifyContent="center"
+        pos="relative"
+        bg="brand"
+        spacing={4}
         sx={{
-          '@media (max-width:48em)': {
-            bgImage: '/images/05.png',
-            bgSize: 'cover',
-          },
-          '@media (max-width:30em)': {
-            bgPos: '50% center',
+          '@media (max-width:47em)': {
+            bgGradient: 'linear(106deg,#00c5fbe6 0%,#005aead0 100%)',
           },
         }}
-        spacing={4}
       >
-        <Heading size="3xl">Be attentive to your health</Heading>
+        <Heading
+          size="2xl"
+          sx={{
+            '@media (max-width:47em)': {
+              color: '#fff',
+            },
+          }}
+        >
+          Be attentive to your health
+        </Heading>
+        <AnimateBg />
         <Text
           fontSize="xl"
           sx={{
-            '@media (max-width:48em)': {
-              fontWeight: '500',
+            '@media (max-width:47em)': {
+              color: 'gray.50',
             },
           }}
         >
@@ -45,6 +52,7 @@ const Hero = () => {
           alignSelf="flex-start"
           colorScheme="blue"
           rounded="sm"
+          shadow="md"
           fontSize="lg"
         >
           Make Appointment
