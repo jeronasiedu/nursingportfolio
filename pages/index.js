@@ -33,7 +33,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://github.com/jeronasiedu/nursingportfolio/blob/main/assets/meta.png?raw=true"
+          content="https://github.com/jeronasiedu/nursingportfolio/blob/main/public/images/hero.jpg?raw=true"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -51,7 +51,7 @@ export default function Home() {
         />
         <meta
           property="twitter:image"
-          content="https://github.com/jeronasiedu/nursingportfolio/blob/main/assets/meta.png?raw=true"
+          content="https://github.com/jeronasiedu/nursingportfolio/blob/main/public/images/hero.jpg?raw=true"
         />
       </Head>
       <Navbar />
