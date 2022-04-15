@@ -9,6 +9,7 @@ import {
   WorkExperience,
   Footer,
 } from '../components'
+import metaImage from '../assets/meta.png'
 export default function Home() {
   return (
     <>
@@ -30,7 +31,7 @@ export default function Home() {
           property="og:description"
           content="You got to check this out. A well crafted portfolio for anyone in the health industry"
         />
-        <meta property="og:image" content="/images/meta.png" />
+        <meta property="og:image" content={metaImage} />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -45,7 +46,7 @@ export default function Home() {
           property="twitter:description"
           content="You got to check this out. A well crafted portfolio for anyone in the health industry"
         />
-        <meta property="twitter:image" content="/images/meta.png" />
+        <meta property="twitter:image" content={metaImage} />
       </Head>
       <Navbar />
       <Container maxW="container.xl">
